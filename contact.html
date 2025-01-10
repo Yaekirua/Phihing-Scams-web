@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Anti-Scam Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #c5c6c7;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: rgba(0, 0, 0, 0.897);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(1, 217, 255, 0.8), 0 0 20px rgba(4, 49, 81, 0.909), 0 0 30px rgba(40, 15, 227, 0.4);
+        }
+
+        .nav {
+            margin-top: 10px;
+        }
+
+        .nav button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 60px; /* Increased horizontal spacing */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav button:hover {
+    background-color: #0a0101;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 34, 88, 0.2);
+    text-shadow: 0 0 8px rgb(27, 179, 221),
+                 0 0 12px rgba(5, 103, 168, 0.6),
+                 0 0 16px rgba(4, 29, 81, 0.493);
+}
+
+
+        /* Content Layout */
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: calc(50% - 20px);
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .section h3 {
+            color: #f1f1f1;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            color: #e0e0e0;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+        }
+
+        .section a {
+            color: #ff8a50;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .feedback-button .cta-btn {
+            background-color: #01a5f7;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .feedback-button .cta-btn:hover {
+            background-color: #061c98;
+            transform: scale(1.05);
+        }
+
+        .gif-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .location-map iframe {
+            width: 100%;
+            border: 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header" id="header">
+        <h1>Anti-Scam Awareness</h1>
+        <div class="nav">
+            <button onclick="navigateTo('index.html')">Home</button>
+            <button onclick="navigateTo('tips.html')">Animation Video</button>
+            <button onclick="navigateTo('videos.html')">Videos</button>
+            <button onclick="navigateTo('contact.html')">Contact</button>
+            <button onclick="navigateTo('team.html')">Our Team</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="content">
+        <!-- Contact Person Details -->
+        <div class="section">
+            <h3>Our Team</h3>
+            <ul>
+                <li><strong>HIZAL HAZREEN HAZIQ</strong> - <a href="https://instagram.com/johndoe" target="_blank">Instagram</a></li>
+                <li><strong>AYDEEN REEZMAN</strong> - <a href="https://instagram.com/janesmith" target="_blank">Instagram</a></li>
+                <li><strong>IRFAN</strong> - <a href="https://instagram.com/mikejohnson" target="_blank">Instagram</a></li>
+                <li><strong>AKMAL</strong> - <a href="https://instagram.com/emilybrown" target="_blank">Instagram</a></li>
+                <li><strong>FARHAN ISKANDAR</strong> - <a href="https://instagram.com/davidwhite" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- Feedback Section -->
+        <div class="section feedback-button">
+            <h3>Feedback</h3>
+            <p>If you'd like to send us feedback, please click the button below:</p>
+            <p>Use UiTM email</p>
+            <button 
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSe5PbXEoFyAtUS1D8T98Xxf7_z4BtNOWu_F8H2cDFr5f4e6Tw/viewform'"
+                class="cta-btn">
+                Give Feedback
+            </button>
+        </div>
+        
+
+        <!-- GIF Section -->
+        <div class="section gif-section">
+            <h3>Thank You!</h3>
+            <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Thank You Gif">
+        </div>
+
+        <!-- Location Map -->
+        <div class="section location-map">
+            <h3>Our Location At UiTM Arau</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.392641179029!2d100.26468675796234!3d6.445609996730747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ca293e55f5bb9%3A0x5d96f84b4708cc7!2sUiTM%20Cawangan%20Perlis%20Kampus%20Arau!5e0!3m2!1sen!2smy!4v1736354595910!5m2!1sen!2smy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">© 2025 Created By HIZAL HAZREEN HAZIQ. All Rights Reserved.</div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

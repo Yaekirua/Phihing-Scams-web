@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Anti-Scam Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #c5c6c7;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: rgba(0, 0, 0, 0.897);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(1, 217, 255, 0.8), 0 0 20px rgba(4, 49, 81, 0.909), 0 0 30px rgba(40, 15, 227, 0.4);
+        }
+        .nav button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 60px; /* Increased horizontal spacing */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav button:hover {
+    background-color: #0a0101;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 34, 88, 0.2);
+    text-shadow: 0 0 8px rgb(27, 179, 221),
+                 0 0 12px rgba(5, 103, 168, 0.6),
+                 0 0 16px rgba(4, 29, 81, 0.493);
+}
+
+        /* Team Section styles */
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .team-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .team-section h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .team-section p {
+            font-size: 1.2rem;
+            color: #e0e0e0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .team-member {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .team-photo {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ff8a50; /* Slightly thicker border for better balance */
+}
+
+        .team-member p {
+            color: #c5c6c7;
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+        .team-member strong {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .team-member em {
+            font-style: italic;
+            color: #ff8a50;
+        }
+
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header" id="header">
+        <h1>Anti-Scam Awareness</h1>
+        <div class="nav">
+            <button onclick="navigateTo('index.html')">Home</button>
+            <button onclick="navigateTo('tips.html')">Animation Video</button>
+            <button onclick="navigateTo('videos.html')">Videos</button>
+            <button onclick="navigateTo('contact.html')">Contact</button>
+            <button onclick="navigateTo('team.html')">Our Team</button>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="content team-page">
+        <div class="team-section">
+            <h2>Meet Our Team</h2>
+            <p>Here are the people dedicated to raising awareness about scams and keeping you informed:</p>
+            <div class="team-grid">
+                <!-- Team Member -->
+                <div class="team-member">
+                    <img src="gamba-ipan.jpg" alt="IRFAN" class="team-photo">
+                    <p><strong>IRFAN</strong></p>
+                    <p>Matric Number: SAYA HENSEM</p>
+                    <p><em>Role: BUDAK HENSEM</em></p>
+                </div>
+                <!-- Other Members -->
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Jane Smith" class="team-photo">
+                    <p><strong>Jane Smith</strong></p>
+                    <p>Matric Number: A23456789</p>
+                    <p><em>Role: Communications Specialist</em></p>
+                </div>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Mike Johnson" class="team-photo">
+                    <p><strong>Mike Johnson</strong></p>
+                    <p>Matric Number: A34567890</p>
+                    <p><em>Role: Web Developer</em></p>
+                </div>
+                <div class="team-member">
+                    <img src="team4.jpg" alt="Emily Brown" class="team-photo">
+                    <p><strong>Emily Brown</strong></p>
+                    <p>Matric Number: A45678901</p>
+                    <p><em>Role: Graphic Designer</em></p>
+                </div>
+                <div class="team-member">
+                    <img src="team5.jpg" alt="David White" class="team-photo">
+                    <p><strong>David White</strong></p>
+                    <p>Matric Number: A56789012</p>
+                    <p><em>Role: Research Analyst</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">© 2025 Created By HIZAL HAZREEN HAZIQ. All Rights Reserved.</div>
+
+    <script>
+        // Navigation handler
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
